@@ -34,9 +34,9 @@
 			<br />		
 			</div>
 
-<?php include 'theme/footer.php' ?>
-<script type = "text/javascript">
-				$(document).ready(function(){
+			<?php include 'theme/footer.php' ?>
+			<script type = "text/javascript">
+					$(document).ready(function(){
 					$('#table').DataTable();
 				});
 			</script>

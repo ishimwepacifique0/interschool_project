@@ -80,7 +80,7 @@
             <a class="nav-link" href="fixture.php">Fixture</a>
           </li>
             <li class="nav-item">
-            <a class="nav-link" href="services.html">Result</a>
+            <a class="nav-link" href="result.php">Result</a>
           </li>
         
           <li class="nav-item">

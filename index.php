@@ -70,13 +70,13 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mx-auto">
           <li class="nav-item">
-            <a class="nav-link" href="../index.php">Home</a>
+            <a class="nav-link" href="index.php">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="isset/fixture.php">Fixture</a>
           </li>
             <li class="nav-item">
-            <a class="nav-link" href="services.html">Result</a>
+            <a class="nav-link" href="isset/result.php">Result</a>
           </li>
         
           <li class="nav-item">

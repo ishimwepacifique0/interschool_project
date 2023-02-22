@@ -21,11 +21,6 @@ for ($i=0; $i < count($array) ; $i++) {
             $team2=$count[$j];
             $date = date('M d, Y', strtotime("+7 days"));
             echo $team1."Vs".$team2."<br>";
-              //  for ($date=0; $date < count($team1) ; $date++) { 
-              //      if ($i%7 == 0) {
-              //        $date = date('M d, Y', strtotime("+$i days"));
-              //      }
-              //  }
 
                 $sql = "INSERT INTO matches(team_one,team_two,match_date) VALUES('$team1','$team2',NOW())";
                 $result = mysqli_query($conn,$sql);

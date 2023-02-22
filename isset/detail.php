@@ -83,6 +83,25 @@
 							
 						</div>
 							<div class  = "modal-body">
+							<table id="example" class="display table table-striped mt-30" cellspacing="0" width="100%">
+							<?php
+						$q_admin = $conn->query("SELECT * FROM `results` WHERE school_name_one = '$school_name' OR school_name_two = '$school_name' ") or die(mysqli_error());
+						while($f_admin = $q_admin->fetch_array()){
+					?>	
+						<tr class="text-center">
+							<td><?php echo $f_admin['school_name_one']?></td>
+							<td><b><?php echo $f_admin['score_schoo_one']?></b><td>
+							<td>-<td>
+                            <td><b><?php echo $f_admin['score_school_two']?></b><td>
+							<td><?php echo $f_admin['school_name_two']?></td>
+            		</tr>
+					<?php
+						}
+					?>
+		
+					</tbody>
+	
+</table>
 							</div>
 						</form>
 					</div>
