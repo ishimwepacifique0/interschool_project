@@ -97,7 +97,7 @@
 			<div class="container py-md-3">
 				
 					
-			   <div class="fea-gd-vv text-center row">
+			   <div class="fea-gd-vv text-center row shadow py-5 px-5">
           <?php
            include 'includes/conn.php';
 
@@ -106,7 +106,7 @@
            while($row = mysqli_fetch_array($result)){
             ?>
           
-					<div class="float-top col-lg-4 col-md-6">	
+					<div class="float-top col-lg-4 col-md-6 ">	
 							<a href="#"><img src="image/db_image/cover_image.jpg" class="img-responsive" alt=""></a>
 							<div class="float-lt feature-gd">	
 									<h3><a href="#"><?php echo  ucfirst($row['title'])?></a> </h3>

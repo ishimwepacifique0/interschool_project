@@ -72,7 +72,7 @@
 					?>	
 						<tr class="text-center">
 							<td><?php echo $f_admin['school_name_one']?></td>
-							<td><?php echo $f_admin['score_schoo_one']?><td>
+							<td><?php echo $f_admin['score_school_one']?><td>
                             <td><?php echo $f_admin['score_school_two']?><td>
 							<td><?php echo $f_admin['school_name_two']?></td>
             		</tr>

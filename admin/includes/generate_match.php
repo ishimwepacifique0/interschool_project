@@ -1,6 +1,6 @@
 <?php
 include 'conn.php';
-$sql = "SELECT school_name FROM school_data ";
+$sql = "SELECT school_name FROM school_data";
 $result = mysqli_query($conn,$sql);
 
 if($result){
@@ -22,7 +22,7 @@ for ($i=0; $i < count($array) ; $i++) {
             $date = date('M d, Y', strtotime("+7 days"));
             echo $team1."Vs".$team2."<br>";
 
-                $sql = "INSERT INTO matches(team_one,team_two,match_date) VALUES('$team1','$team2',NOW())";
+                $sql = "INSERT INTO matches(team_one,team_two,date) VALUES('$team1','$team2',NOW())";
                 $result = mysqli_query($conn,$sql);
 
           

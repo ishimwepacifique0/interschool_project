@@ -23,6 +23,7 @@
             <a class="dropdown-item" href="./result.php">Result</a>
             <a class="dropdown-item" href="./description.php">Description</a>
             <a class="dropdown-item" href="./table.php">Table</a>
+            <a class="dropdown-item" href="./sms.php">Send sms</a>
           </div>
         </li>
         <li class="nav-item">

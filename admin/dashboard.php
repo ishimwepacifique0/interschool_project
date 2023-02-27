@@ -57,7 +57,7 @@ $row = mysqli_fetch_array($result);
       <!-- Navbar -->
       <ul class="navbar-nav ml-auto ml-md-0" style="font-family: AR BLANCA">
          <li class="nav-item dropdown no-arrow mx-1">
-          <a class="nav-link dropdown-toggle active" href="#" id="messagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Message(s)
+          <a class="nav-link dropdown-toggle active" href="sms.php" id="messagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Message(s)
              <i class="fas fa-envelope fa-fw"></i>
           </a>
           <div class="dropdown-menu dropdown-menu-right" aria-labelledby="messagesDropdown">

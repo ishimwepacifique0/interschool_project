@@ -1,5 +1,5 @@
 
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -15,21 +15,21 @@
     </form>
     
 </body>
-</html>
+</html> -->
 
 <?php
 $conn = mysqli_connect("localhost","root","","interschool");
 
-if(isset($_POST['get_data'])){
+// if(isset($_POST['get_data'])){
 
-$province = $_POST['province'];
-$type = $_POST['completition_type'];
+// $province = $_POST['province'];
+// $type = $_POST['completition_type'];
 
-echo $province.$type;
+// echo $province.$type;
 
-$sql = " SELECT * FROM `school_data` where school_province like '%$province%' ";
-$result = mysqli_query($conn,$sql);
-while ($row = mysqli_fetch_array($result)) {
+// $sql = " SELECT * FROM `school_data` where school_province like '%$province%' ";
+// $result = mysqli_query($conn,$sql);
+// while ($row = mysqli_fetch_array($result)) {
     ?>
     <table>
         <tr cellspacing="23" cellpadding="20">
@@ -38,12 +38,18 @@ while ($row = mysqli_fetch_array($result)) {
             <td><?php echo $row["school_province"] ?></td>
         </tr>
     </table>
-
     <?php
-}
-
-}
+// }
 
 
+<?php    
+                            // $sql = " SELECT phonenumber FROM school_data";
+                            // $result = mysqli_query($conn,$sql)
+                            // while ($row = mysqli_fetch_arrow($result)) {
+                            //     ?>
+                            //     <option value="<?php echo $row['phonenumber']?>"><?php echo $row["phonenumber"]?></option>
+                            //     <?php
+                            // }
+                            // ?>
 
 ?>
