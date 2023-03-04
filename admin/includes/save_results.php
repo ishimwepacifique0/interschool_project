@@ -1,6 +1,6 @@
 <?php
  include 'conn.php';
- if(ISSET($_POST['save'])){
+ if(isset($_POST['save'])){
     $school_name_one = $_POST['school_name_one'];
     $school_name_two = $_POST['school_name_two'];
     $score_school_one = $_POST['score_school_one'];
